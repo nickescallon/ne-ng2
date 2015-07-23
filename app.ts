@@ -1,9 +1,11 @@
-/// <reference path="typings/angular2/angular2.d.ts" />
+/// <reference path="typings/tsd.d.ts" />
 
 // angular2 dependencies
 import 'reflect-metadata';
-import 'traceur-runtime';
 import 'angular2/node_modules/zone.js/lib/zone'
+
+// browser ES6 polyfil;s
+import 'traceur-runtime';
 
 import {Component, View, bootstrap, NgFor} from 'angular2/angular2';
 
