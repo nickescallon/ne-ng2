@@ -1,4 +1,4 @@
-/// <reference path="typings/tsd.d.ts" />
+/// <reference path="../typings/tsd.d.ts" />
 
 // angular2 dependencies
 import 'reflect-metadata';
@@ -11,16 +11,17 @@ import {Component, View, bootstrap, NgFor} from 'angular2/angular2';
 
 // annotations
 @Component({
-  selector: 'my-app'
+  selector: 'app'
 })
 @View({
   template: `
     <input #todotext (keyup)="doneTyping($event)">
+    <p>{{todotext.value | json}}</p>
     <button (click)="addTodo(todotext.value)">Add Todo</button>
     <p>Friends:</p>
     <ul>
        <li *ng-for="#todo of todos">
-          {{ todo }}
+          {{ todo | lowercase }}
        </li>
     </ul>
   `,
@@ -29,13 +30,13 @@ import {Component, View, bootstrap, NgFor} from 'angular2/angular2';
 })
 
 // controller
-class MyAppComponent {
+class App {
   // name: string;
   todos: Array<string>;
 
   constructor() {
     // this.name = 'Nico';
-    this.todos = ["Aarav", "Martín", "Shannon", "Ariana", "Kai"];
+    this.todos = ["AAAAv", "Martín", "Shannon", "Ariana", "Kai"];
   }
 
   addTodo(todo: string) {
@@ -50,4 +51,4 @@ class MyAppComponent {
   }
 }
 
-bootstrap(MyAppComponent);
+bootstrap(App);

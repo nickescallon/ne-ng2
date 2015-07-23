@@ -4,17 +4,18 @@
   "description": "a simple angular2 app",
   "main": "gulpfile.js",
   "dependencies": {
-    "browserify": "^10.2.6",
     "angular2": "^2.0.0-alpha.31",
-    "gulp": "^3.9.0",
     "reflect-metadata": "^0.1.0",
+    "traceur-runtime": "^0.0.59"
+  },
+  "devDependencies": {
+    "browserify": "^10.2.6",
+    "gulp": "^3.9.0",
     "typescript": "^1.5.3",
     "tsify": "^0.11.2",
     "vinyl-source-stream": "^1.1.0",
-    "tsd": "^0.6.3",
-    "traceur-runtime": "^0.0.59"
+    "tsd": "^0.6.3"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

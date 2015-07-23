@@ -1,0 +1,148 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.36
+4 verbose node symlink /usr/local/bin/node
+5 warn package.json ne-ng2@1.0.0 No README data
+6 verbose readDependencies using package.json deps
+7 verbose install where, deps [ '/Users/nescallon/ne-ng2',
+7 verbose install   [ 'angular2',
+7 verbose install     'reflect-metadata',
+7 verbose install     'traceur-runtime',
+7 verbose install     'browserify',
+7 verbose install     'gulp',
+7 verbose install     'typescript',
+7 verbose install     'tsify',
+7 verbose install     'vinyl-source-stream',
+7 verbose install     'tsd' ] ]
+8 info preinstall ne-ng2@1.0.0
+9 verbose readDependencies using package.json deps
+10 verbose cache add [ 'angular2@^2.0.0-alpha.31', null ]
+11 verbose cache add name=undefined spec="angular2@^2.0.0-alpha.31" args=["angular2@^2.0.0-alpha.31",null]
+12 verbose parsed url { protocol: null,
+12 verbose parsed url   slashes: null,
+12 verbose parsed url   auth: null,
+12 verbose parsed url   host: null,
+12 verbose parsed url   port: null,
+12 verbose parsed url   hostname: null,
+12 verbose parsed url   hash: null,
+12 verbose parsed url   search: null,
+12 verbose parsed url   query: null,
+12 verbose parsed url   pathname: 'angular2@^2.0.0-alpha.31',
+12 verbose parsed url   path: 'angular2@^2.0.0-alpha.31',
+12 verbose parsed url   href: 'angular2@^2.0.0-alpha.31' }
+13 verbose already installed skipping reflect-metadata@^0.1.0 /Users/nescallon/ne-ng2
+14 verbose already installed skipping traceur-runtime@^0.0.59 /Users/nescallon/ne-ng2
+15 verbose already installed skipping browserify@^10.2.6 /Users/nescallon/ne-ng2
+16 verbose cache add name="angular2" spec="^2.0.0-alpha.31" args=["angular2","^2.0.0-alpha.31"]
+17 verbose parsed url { protocol: null,
+17 verbose parsed url   slashes: null,
+17 verbose parsed url   auth: null,
+17 verbose parsed url   host: null,
+17 verbose parsed url   port: null,
+17 verbose parsed url   hostname: null,
+17 verbose parsed url   hash: null,
+17 verbose parsed url   search: null,
+17 verbose parsed url   query: null,
+17 verbose parsed url   pathname: '^2.0.0-alpha.31',
+17 verbose parsed url   path: '^2.0.0-alpha.31',
+17 verbose parsed url   href: '^2.0.0-alpha.31' }
+18 verbose addNamed [ 'angular2', '^2.0.0-alpha.31' ]
+19 verbose addNamed [ null, '>=2.0.0-alpha.31 <3.0.0-0' ]
+20 verbose already installed skipping gulp@^3.9.0 /Users/nescallon/ne-ng2
+21 silly lockFile 6994fa3d-angular2-2-0-0-alpha-31 angular2@^2.0.0-alpha.31
+22 verbose lock angular2@^2.0.0-alpha.31 /Users/nescallon/.npm/6994fa3d-angular2-2-0-0-alpha-31.lock
+23 verbose already installed skipping typescript@^1.5.3 /Users/nescallon/ne-ng2
+24 silly addNameRange { name: 'angular2',
+24 silly addNameRange   range: '>=2.0.0-alpha.31 <3.0.0-0',
+24 silly addNameRange   hasData: false }
+25 verbose already installed skipping tsify@^0.11.2 /Users/nescallon/ne-ng2
+26 verbose already installed skipping vinyl-source-stream@^1.1.0 /Users/nescallon/ne-ng2
+27 verbose already installed skipping tsd@^0.6.3 /Users/nescallon/ne-ng2
+28 verbose request where is /angular2
+29 verbose request registry https://registry.npmjs.org/
+30 verbose request id 3713efdbe0d40e3c
+31 verbose url raw /angular2
+32 verbose url resolving [ 'https://registry.npmjs.org/', './angular2' ]
+33 verbose url resolved https://registry.npmjs.org/angular2
+34 verbose request where is https://registry.npmjs.org/angular2
+35 info trying registry request attempt 1 at 13:35:11
+36 verbose etag "3WKTUF0NUOQLTWW11QBTX0OMY"
+37 http GET https://registry.npmjs.org/angular2
+38 http 304 https://registry.npmjs.org/angular2
+39 silly registry.get cb [ 304,
+39 silly registry.get   { date: 'Thu, 23 Jul 2015 17:35:05 GMT',
+39 silly registry.get     via: '1.1 varnish',
+39 silly registry.get     'cache-control': 'max-age=60',
+39 silly registry.get     etag: '"3WKTUF0NUOQLTWW11QBTX0OMY"',
+39 silly registry.get     age: '0',
+39 silly registry.get     connection: 'keep-alive',
+39 silly registry.get     'x-served-by': 'cache-jfk1024-JFK',
+39 silly registry.get     'x-cache': 'MISS',
+39 silly registry.get     'x-cache-hits': '0',
+39 silly registry.get     'x-timer': 'S1437672905.727137,VS0,VE167',
+39 silly registry.get     vary: 'Accept' } ]
+40 verbose etag https://registry.npmjs.org/angular2 from cache
+41 silly addNameRange number 2 { name: 'angular2',
+41 silly addNameRange   range: '>=2.0.0-alpha.31 <3.0.0-0',
+41 silly addNameRange   hasData: true }
+42 silly addNameRange versions [ 'angular2',
+42 silly addNameRange   [ '2.0.0-alpha.8.dev',
+42 silly addNameRange     '2.0.0-alpha.8.prod',
+42 silly addNameRange     '2.0.0-alpha.11',
+42 silly addNameRange     '2.0.0-alpha.12',
+42 silly addNameRange     '2.0.0-alpha.13',
+42 silly addNameRange     '2.0.0-alpha.14',
+42 silly addNameRange     '2.0.0-alpha.15',
+42 silly addNameRange     '2.0.0-alpha.16',
+42 silly addNameRange     '2.0.0-alpha.17',
+42 silly addNameRange     '2.0.0-alpha.18',
+42 silly addNameRange     '2.0.0-alpha.19',
+42 silly addNameRange     '2.0.0-alpha.20',
+42 silly addNameRange     '2.0.0-alpha.21',
+42 silly addNameRange     '2.0.0-alpha.22',
+42 silly addNameRange     '2.0.0-alpha.23',
+42 silly addNameRange     '2.0.0-alpha.24',
+42 silly addNameRange     '2.0.0-alpha.25',
+42 silly addNameRange     '2.0.0-alpha.26',
+42 silly addNameRange     '2.0.0-alpha.27',
+42 silly addNameRange     '2.0.0-alpha.28',
+42 silly addNameRange     '2.0.0-alpha.29',
+42 silly addNameRange     '2.0.0-alpha.30',
+42 silly addNameRange     '2.0.0-alpha.31',
+42 silly addNameRange     '2.0.0-alpha.32' ] ]
+43 verbose addNamed [ 'angular2', '2.0.0-alpha.32' ]
+44 verbose addNamed [ '2.0.0-alpha.32', '2.0.0-alpha.32' ]
+45 silly lockFile c74830dd-angular2-2-0-0-alpha-32 angular2@2.0.0-alpha.32
+46 verbose lock angular2@2.0.0-alpha.32 /Users/nescallon/.npm/c74830dd-angular2-2-0-0-alpha-32.lock
+47 silly lockFile 882061e3-lar2-angular2-2-0-0-alpha-32-tgz https://registry.npmjs.org/angular2/-/angular2-2.0.0-alpha.32.tgz
+48 verbose lock https://registry.npmjs.org/angular2/-/angular2-2.0.0-alpha.32.tgz /Users/nescallon/.npm/882061e3-lar2-angular2-2-0-0-alpha-32-tgz.lock
+49 verbose addRemoteTarball [ 'https://registry.npmjs.org/angular2/-/angular2-2.0.0-alpha.32.tgz',
+49 verbose addRemoteTarball   '917e5b70038c303b569b2362c0717063bc537387' ]
+50 info retry fetch attempt 1 at 13:35:12
+51 verbose fetch to= /var/folders/yw/gx8cpnxn5n5f42scj3g7qrwr0000gp/T/npm-51081-tkNYqScv/registry.npmjs.org/angular2/-/angular2-2.0.0-alpha.32.tgz
+52 http GET https://registry.npmjs.org/angular2/-/angular2-2.0.0-alpha.32.tgz
+53 http 200 https://registry.npmjs.org/angular2/-/angular2-2.0.0-alpha.32.tgz
+54 silly lockFile 882061e3-lar2-angular2-2-0-0-alpha-32-tgz https://registry.npmjs.org/angular2/-/angular2-2.0.0-alpha.32.tgz
+55 silly lockFile 882061e3-lar2-angular2-2-0-0-alpha-32-tgz https://registry.npmjs.org/angular2/-/angular2-2.0.0-alpha.32.tgz
+56 silly lockFile c74830dd-angular2-2-0-0-alpha-32 angular2@2.0.0-alpha.32
+57 silly lockFile c74830dd-angular2-2-0-0-alpha-32 angular2@2.0.0-alpha.32
+58 silly lockFile 6994fa3d-angular2-2-0-0-alpha-31 angular2@^2.0.0-alpha.31
+59 silly lockFile 6994fa3d-angular2-2-0-0-alpha-31 angular2@^2.0.0-alpha.31
+60 error Error: EACCES, mkdir '/Users/nescallon/.npm/angular2/2.0.0-alpha.32'
+60 error  { [Error: EACCES, mkdir '/Users/nescallon/.npm/angular2/2.0.0-alpha.32']
+60 error   errno: 3,
+60 error   code: 'EACCES',
+60 error   path: '/Users/nescallon/.npm/angular2/2.0.0-alpha.32',
+60 error   parent: 'ne-ng2' }
+61 error Please try running this command again as root/Administrator.
+62 error System Darwin 13.3.0
+63 error command "/usr/local/bin/node" "/usr/local/bin/npm" "install"
+64 error cwd /Users/nescallon/ne-ng2
+65 error node -v v0.10.36
+66 error npm -v 1.4.28
+67 error path /Users/nescallon/.npm/angular2/2.0.0-alpha.32
+68 error code EACCES
+69 error errno 3
+70 error stack Error: EACCES, mkdir '/Users/nescallon/.npm/angular2/2.0.0-alpha.32'
+71 verbose exit [ 3, true ]
